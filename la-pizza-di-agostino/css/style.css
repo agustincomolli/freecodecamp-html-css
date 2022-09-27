@@ -1,0 +1,39 @@
+/* 
+  Paleta de colores:
+    #362706
+    #464E2E
+    #ACB992
+    #E9E5D6
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+body {
+  background-color: #E9E5D6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, 
+p {
+  color: #362706;
+}
+
+h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+h2 {
+  color: #464E2E;
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+header, 
+footer {
+  background-color: #ACB992;
+  padding: 5px 20px;
+}
+
+.smaller-image {
+  width: 300px;
+  height: 150px;
+}

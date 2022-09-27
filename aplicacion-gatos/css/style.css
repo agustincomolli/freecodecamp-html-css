@@ -1,0 +1,32 @@
+/* 
+  Paleta de colores:
+  #1C6758
+  #3D8361
+  #D6CDA4
+  #EEF2E6
+*/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: #1C6758;
+}
+
+h2 {
+  color: #3D8361;
+}
+
+h3 {
+  color:  #3D8361;
+}
+
+p,
+.cats-list {
+  font-size: 12px;
+}
+
+.cats-list {
+  color: #3D8361
+}

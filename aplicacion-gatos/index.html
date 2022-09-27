@@ -2,12 +2,14 @@
 <html lang="es">
 
 <head>
-
+  <meta charset="utf-8">
+  <title>Aplicación de Gatos 🐈🐈🐈</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  <h2>Aplicación de Gatos</h1>
+  <h1>Aplicación de Gatos</h1>
 
     <main>
       <h2>Imágenes de gatos:</h2>
@@ -64,31 +66,58 @@
 
       <hr>
 
-      <p>Cosas que <em>aman</em> los gatos:</p>
-      <ul>
-        <li>Mimos</li>
-        <li>Comer</li>
-        <li>Dormir</li>
-        <li><s>Lasaña</s></li>
-      </ul>
-      <img src="./images/mimos.jpg" alt="Gatito recibiendo mimos">
+      <div>
+        <h3>Listas de gatos:</h3>
+        <p>Cosas que <em>aman</em> los gatos:</p>
+        <ul class="cats-list">
+          <li>Mimos</li>
+          <li>Comer</li>
+          <li>Dormir</li>
+          <li><s>Lasaña</s></li>
+        </ul>
+        <img src="./images/mimos.jpg" alt="Gatito recibiendo mimos">
 
-      <p>Las 3 cosas principales que los gatos <strong>odian</strong>:</p>
-      <ol>
-        <li>Agua</li>
-        <li>Ruidos fuertes</li>
-        <li>Olores fuertes</li>
-      </ol>
+        <p>Las 3 cosas principales que los gatos <strong>odian</strong>:</p>
+        <ol class="cats-list">
+          <li>Agua</li>
+          <li>Ruidos fuertes</li>
+          <li>Olores fuertes</li>
+        </ol>
+      </div>
       <img src="./images/gato_baniandose.jpg" alt="Gatito bañándose">
 
       <form action="/send-response">
-        <input type="text" placeholder="URL de la foto de tu gato">
+        <!-- Botones de radio -->
+        <p>
+          ¿A tú gato, dónde le gusta estar más? <br>
+          <label for="indoor"><input type="radio" name="indoor-outdoor" id="indoor" checked
+              value="indoor">adentro</label>
+          <label for="outdoor"><input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor">afuera</label>
+        </p>
+
+        <!-- Casillas de verificación -->
+        <p>
+          ¿Cuál es la personalidad de tu gato? <br>
+          <label for="aggressive"><input type="checkbox" name="personality" id="aggressive"
+              value="aggressive">agresivo</label>
+          <label for="fearful"><input type="checkbox" name="personality" id="fearful" value="fearful">miedoso</label>
+          <label for="playful"><input type="checkbox" name="personality" id="playful" checked
+              value="playful">juguetón</label>
+        </p>
+
+        <!-- Texto y botón Enviar -->
+        <input type="text" placeholder="URL de la foto de tu gato" required>
         <button type="submit">Enviar</button>
       </form>
 
     </main>
 
-    <footer id="footer">Copyright Cat Photo App</footer>
+    <footer id="footer">
+      <p>
+        <small>Copyright Cat Photo App - <a href="http://www.freecodecamp.org/espanol" target="_blank"
+          rel="noopener noreferrer">freecodecamp.org</a></small>
+      </p>
+    </footer>
 
 </body>
 
