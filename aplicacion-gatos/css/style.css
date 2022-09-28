@@ -6,27 +6,56 @@
   #EEF2E6
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu&display=swap');
+
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #EEF2E6;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   color: #1C6758;
 }
 
-h2 {
-  color: #3D8361;
+img {
+  width: 200px;
 }
 
-h3 {
-  color:  #3D8361;
+div {
+  background-color: #D6CDA4;
+  padding: 5px 20px 20px;
+  margin: 10px;
 }
 
-p,
-.cats-list {
-  font-size: 12px;
-}
-
+h2,
+h3,
 .cats-list {
   color: #3D8361
+}
+
+.border-rounded {
+  border-radius: 20px;
+}
+
+[type="radio"] {
+  margin: 5px;
+}
+
+[type="checkbox"] {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+a[href="http://www.freecodecamp.org/espanol"] {
+  color: #3D8361;
+  text-decoration: none;
+  font-weight: bold;
 }
