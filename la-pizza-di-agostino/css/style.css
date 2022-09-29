@@ -52,6 +52,20 @@ footer {
   text-align: right;
 }
 
+main {
+  text-align: center;
+}
+
+#order {
+  align-self: center;
+  border: 3px solid;
+  border-color: #362706;
+  border-radius: 10px;
+  margin: 5px;
+  width: 600px;
+  height: 600px;
+}
+
 .smaller-image {
   height: 100px;
   border-radius: 10px;
