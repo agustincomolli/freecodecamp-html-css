@@ -18,26 +18,34 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-h1, 
+h1,
 p {
   color: #362706;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: 'Love Ya Like A Sister', cursive;
-  margin-block: 0.5em;
+}
+
+h1 {
+  margin-block: 0em;
 }
 
 h2 {
   color: #464E2E;
-  font-family: 'Love Ya Like A Sister', cursive;
 }
 
-header, 
+header,
 footer {
   background-color: #ACB992;
   padding: 5px 20px;
   margin: -7px;
+}
+
+header {
+  height: 40px;
 }
 
 footer {
@@ -45,7 +53,7 @@ footer {
 }
 
 .smaller-image {
-  width: 250px;
+  height: 100px;
   border-radius: 10px;
 }
 

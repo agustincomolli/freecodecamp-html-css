@@ -17,12 +17,14 @@
   <main>
     <div>
       <h2>La più ricca del mondo 🤌</h2>
-
-      <img src="./images/pizza.jpeg" alt="La pizza más sabrosa" class="smaller-image">
+      <img src="./images/pizza.jpeg" alt="La pizza más sabrosa" class="smaller-image" id="logo">
+      <p>
+        Prepara tu pizza como más te guste.
+      </p>
     </div>
 
     <div>
-      <h2>Tamaño:</h2>
+      <h3>Tamaño:</h3>
       <label for="small">
         <input type="radio" name="size" id="small" value="small">Chica
       </label>
@@ -35,7 +37,7 @@
     </div>
 
     <div>
-      <h2>Ingredientes:</h2>
+      <h3>Ingredientes:</h3>
       Quesos: <br>
       <label for="muzzarella">
         <input type="checkbox" name="ingredients" id="muzzarella" checked>Muzzarella
@@ -60,6 +62,9 @@
       <label for="olive-oil">
         <input type="checkbox" name="ingredients" id="olive-oil" value="olive-oil">Aceite de oliva
       </label> <br>
+      <label for="name">Nombre:
+        <input type="text" name="name" id="name" placeholder="Escribe tu nombre" required>
+      </label>
       <button type="submit">Enviar Pedido</button>
     </div>
   </main>
