@@ -10,11 +10,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background-color: #E9E5D6;
   font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   display: grid;
-  min-height: 98.3vh;
+  min-height: 100vh;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: "header""main""footer";
 }
@@ -41,7 +44,7 @@ h2 {
 header,
 footer {
   background-color: #ACB992;
-  margin: -7px;
+  margin: 0;
 }
 
 header {
@@ -63,19 +66,28 @@ footer.p {
 main {
   text-align: center;
   grid-area: main;
+  justify-self: center;
+  margin-top: 60px;
+}
+
+hr {
+  width: 75%;
+  margin: 25px auto;
+  border: #362706 solid 1px;
 }
 
 #order {
-  align-self: center;
   border: 3px solid;
   border-color: #362706;
+  background-color: white;
   border-radius: 10px;
-  margin: auto;
-  position: relative;
-  top: 30px;
   width: 600px;
-  height: 500px;
+  height: 600px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+#name {
+  margin-top: 40px;
 }
 
 .smaller-image {

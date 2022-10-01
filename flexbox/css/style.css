@@ -3,8 +3,34 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: black;
 }
 
-span {
-  color:blueviolet;
+.container {
+  background-color: darkslategrey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.one,
+.two,
+.three {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.one {
+  background-color: darkorange;
+}
+
+.two {
+  background-color: darkcyan;
+}
+
+.three {
+  background-color: darkviolet;
 }
