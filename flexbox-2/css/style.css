@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: center; /* de izquierda a derecha */
+  align-items: center;     /* de arriba hacia abajo */
+  height: 100vh;
+}
+
+.boxcontainer {
+  background-color: blueviolet;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.one {
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+}

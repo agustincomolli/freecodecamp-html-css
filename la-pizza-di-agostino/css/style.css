@@ -67,7 +67,7 @@ main {
   text-align: center;
   grid-area: main;
   justify-self: center;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 hr {
@@ -82,12 +82,12 @@ hr {
   background-color: white;
   border-radius: 10px;
   width: 600px;
-  height: 600px;
+  height: 500px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 #name {
-  margin-top: 40px;
+  margin-top: 2 0px;
 }
 
 .smaller-image {
@@ -98,4 +98,10 @@ hr {
 [type="checkbox"] {
   margin-top: 4px;
   margin-bottom: 15px;
+}
+
+#whatsapp {
+  position: fixed;
+  bottom: 60px;
+  right: 40px;
 }
