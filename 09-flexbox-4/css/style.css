@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.father {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  position: relative; /* Desbloquea los desplazamientos */
+  left: 200px;
+}
+
+.son {
+  height: 50px;
+  width: 50px;
+  background-color: blueviolet;
+  position: absolute; /* Siempre el padre debe estar posicionado con relative o absolute. */
+  bottom: 0;
+  right: 0;
+}
