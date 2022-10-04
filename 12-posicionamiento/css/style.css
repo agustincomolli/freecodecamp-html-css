@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.box {
+  display: inline-block;
+  height: 100px;
+  width:  100px;
+  background-color: darkred;
+  color:antiquewhite;
+}
+
+#one {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: darkgreen;
+}

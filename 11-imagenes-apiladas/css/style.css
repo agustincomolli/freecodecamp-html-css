@@ -1,0 +1,90 @@
+/* 
+  Paleta de colores
+    #25316D
+    #5F6F94
+    #97D2EC
+    #FEF5AC
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #FEF5AC;
+}
+
+.images-container {
+/*   margin: 100px auto;
+  width: 500px;
+ */  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Para centrar los elementos hay que darle un tamaño */
+}
+
+.images-container .image {
+  position: relative;
+  margin-right: -20px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.images-container .image img {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.images-container .image .name {
+  background-color: #25316D;
+  color: #97D2EC;
+  border-radius: 5px;
+  display: none;
+  min-width: 100px;
+  width: 150px;
+  position: absolute;
+  top: -50px;
+  padding: 10px 15px;
+}
+
+.images-container .image .name .text {
+  display: inline-block;
+  text-overflow: ellipsis; /* Muestra los tres puntos cuando el texto no cabe en el contenedor */
+  overflow: hidden; /* Si el texto no cabe, ocultarlo */
+  white-space: nowrap;
+  margin: 0 auto;
+  width: 150px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.images-container .image .name::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: 40%;
+  bottom: -20px;
+  border-top: 10px solid #25316D;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.images-container .image:hover .name {
+  display: inline-block;
+  transform: translateY(-20px);
+}
+
+.images-container .image:hover img {
+  transform: translateY(-20px);
+}
+
+@media (max-width: 640px) {
+  .images-container {
+    flex-direction: column;
+    height: 180vh;
+  }
+}
