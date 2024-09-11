@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.container {
+  background-color: darkslategrey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  gap: 50px;
+}
+
+.one,
+.two,
+.three {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.one {
+  background-color: darkorange;
+  width: 400px;
+  height: 400px;
+}
+
+.two {
+  background-color: darkcyan;
+}
+
+.three {
+  background-color: darkviolet;
+}

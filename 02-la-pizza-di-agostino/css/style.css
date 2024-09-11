@@ -1,0 +1,107 @@
+/* 
+  Paleta de colores:
+    #362706
+    #464E2E
+    #ACB992
+    #E9E5D6
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #E9E5D6;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header""main""footer";
+}
+
+h1,
+p {
+  color: #362706;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+h1 {
+  margin-block: 0em;
+}
+
+h2 {
+  color: #464E2E;
+}
+
+header,
+footer {
+  background-color: #ACB992;
+  margin: 0;
+}
+
+header {
+  height: 40px;
+  grid-area: header;
+  padding: 5px 20px;
+}
+
+footer {
+  text-align: right;
+  grid-area: footer;
+  padding: 0px 20px;
+}
+
+footer.p {
+  margin-block: 0em;
+}
+
+main {
+  text-align: center;
+  grid-area: main;
+  justify-self: center;
+  margin-top: 20px;
+}
+
+hr {
+  width: 75%;
+  margin: 25px auto;
+  border: #362706 solid 1px;
+}
+
+#order {
+  border: 3px solid;
+  border-color: #362706;
+  background-color: white;
+  border-radius: 10px;
+  width: 600px;
+  height: 500px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+#name {
+  margin-top: 2 0px;
+}
+
+.smaller-image {
+  height: 100px;
+  border-radius: 10px;
+}
+
+[type="checkbox"] {
+  margin-top: 4px;
+  margin-bottom: 15px;
+}
+
+#whatsapp {
+  position: fixed;
+  bottom: 60px;
+  right: 40px;
+}

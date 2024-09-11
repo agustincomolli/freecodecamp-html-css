@@ -1,0 +1,20 @@
+/* Selector de etiquetas */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Selector de id */
+#main-container {
+  background-color: black;
+  width: 600px;
+  height: 300px;
+}
+
+/* Selector de clases */
+.post {
+  background-color: lightgray;
+  width: 500px;
+}

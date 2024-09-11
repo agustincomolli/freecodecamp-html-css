@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Las Pizzas del Agustín 🍕</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>La Pizza di Agostino 🍕</h1>
+  </header>
+
+  <main>
+    <section id="order">
+      <div>
+        <h2>La più ricca del mondo 🤌</h2>
+        <img src="./images/pizza.jpeg" alt="La pizza más sabrosa" class="smaller-image" id="logo">
+        <p>
+          Prepara tu pizza como más te guste.
+        </p>
+        <hr>
+      </div>
+
+      <div>
+        <h3>Tamaño:</h3>
+        <label for="small">
+          <input type="radio" name="size" id="small" value="small">Chica
+        </label>
+        <label for="medium">
+          <input type="radio" name="size" id="medium" value="medium">Mediana
+        </label>
+        <label for="large">
+          <input type="radio" name="size" id="large" value="large" checked>Grande
+        </label>
+      </div>
+
+      <div>
+        <h3>Ingredientes:</h3>
+        Quesos: <br>
+        <label for="muzzarella">
+          <input type="checkbox" name="ingredients" id="muzzarella" checked>Muzzarella
+        </label>
+        <label for="provolone">
+          <input type="checkbox" name="ingredients" id="provolone" value="provolone">Provolone
+        </label>
+        <label for="roquefort">
+          <input type="checkbox" name="ingredients" id="roquefort" value="roquefort">Roquefort
+        </label><br>
+
+        Otros: <br>
+        <label for="olives">
+          <input type="checkbox" name="ingredients" id="olives" value="olives" checked>Aceitunas
+        </label>
+        <label for="pepper">
+          <input type="checkbox" name="ingredients" id="pepper" value="pepper">Pimienta
+        </label>
+        <label for="tomato-sauce">
+          <input type="checkbox" name="ingredients" id="tomato-sauce" value="tomato-sauce" checked>Salsa de tomate
+        </label>
+        <label for="olive-oil">
+          <input type="checkbox" name="ingredients" id="olive-oil" value="olive-oil">Aceite de oliva
+        </label> <br>
+        <label for="name">Nombre:
+          <input type="text" name="name" id="name" placeholder="Escribe tu nombre" required>
+        </label>
+        <button type="submit">Enviar Pedido</button>
+      </div>
+
+    </section>
+    <a href="https://wa.me/+5492226680056?text=Escribeme%20aqui">
+      <img src="./images/whatsapp.png" alt="Icono WhatsApp" id="whatsapp">
+    </a>
+  </main>
+
+  <footer>
+    <p><small><strong>©️ Agustín Comolli</strong></small></p>
+  </footer>
+</body>
+
+</html>

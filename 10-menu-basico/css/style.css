@@ -1,0 +1,58 @@
+/* 
+  Paleta de colores:
+    #F8EDE3
+    #BDD2B6
+    #A2B29F
+    #798777
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #F8EDE3;
+}
+
+header {
+  min-height: 60px;
+  background-color: #798777;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+a {
+  color: #F8EDE3;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 48px;
+  margin-right: 10px;
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav a:hover {
+  color: #A2B29F;
+}
+
+@media (max-width: 640px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    padding: 10px 0px;
+  }
+}

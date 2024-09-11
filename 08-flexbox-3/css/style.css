@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.father {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.son {
+  height: 300px;
+  width: 300px;
+  background-color: blueviolet;
+}
